@@ -6,21 +6,21 @@
 
 // esse struct serve pra suportar o cilindro, nomeei o formato dele como objeto
 typedef struct{
-    float Raio;
-    float Altura;
+    float Radius;
+    float Height;
     float Area;
     float Volume;
-} Objeto;
+} Objectt;
 
 
 //esta função irá armazenar a altura
-float armazenarAltura();
+float storeHeight();
 
 //esta função irá armazenar o raio
-float armazenarRaio();
+float storeRadius();
 
 //esta função irá fazer o cálculo da area
-float calcularArea();
+float calculateArea();
 
 //esta função irá fazer o cálculo do volume
-float calcularVolume();
+float calculateVolume();

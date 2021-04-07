@@ -2,8 +2,8 @@
 
 int main(){
     //executo as funções
-    armazenarAltura();
-    armazenarRaio();
-    calcularArea();
-    calcularVolume();
+    storeHeight();
+    storeRadius();
+    calculateArea();
+    calculateVolume();
 }
